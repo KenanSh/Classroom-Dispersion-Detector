@@ -32,3 +32,12 @@ python main.py downloader --classes Person Human face --type_csv train --limit 1
 ```
 This command downloads 1900 training images for the class `Person` & `Human face`.
 
+## Environment Setup
+
+To ensure a consistent and reproducible environment for this project, an Anaconda environment YAML file is included. This file specifies all the dependencies and their versions required for the project.
+
+Create the environment from the YAML file:
+```bash
+conda env create -f human_detection_yolo_env.yaml
+```
+
