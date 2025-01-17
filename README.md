@@ -1,7 +1,8 @@
 # Classroom Dispersion Detector
 
 ## Summary
-The Classroom Dispersion Detector is a project designed to analyze classroom dynamics and seating arrangements using computer vision techniques. By leveraging a YOLOv8 pretrained model, this project aims to detect human faces and persons in the classroom scene. The key objective is to determine student engagement by identifying individuals who are distracted. If a person is detected without their face visible, they are classified as "Distracted," and vice versa. Such a tool can provide insights into classroom engagement, social distancing compliance, or spatial organization. This application detects distraction in images of classrooms, video footage of classrooms, and in real-time classroom scenarios
+The Classroom Dispersion Detector is a project designed to analyze classroom dynamics and seating arrangements using computer vision techniques. By leveraging a YOLOv8 pretrained model, this project aims to detect human faces and persons in the classroom scene. The key objective is to determine student engagement by identifying individuals who are distracted. If a person is detected without their face visible, they are classified as "Distracted," and vice versa. Such a tool can provide insights into classroom engagement, social distancing compliance, or spatial organization. This application detects distraction in images of classrooms, video footage of classrooms, and in real-time classroom scenarios.
+
 ---
 
 ## Dataset
