@@ -1,0 +1,12 @@
+
+path: D:\human_detection_yolo\train_yolov8\data
+train: images/train
+val: images/val 
+
+# Number of classes
+nc: 2
+
+# Classes
+names:
+  0: Person
+  1: Face

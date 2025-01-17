@@ -1,0 +1,8 @@
+Time: 2024-07-19 22:32:25
+Number of people: 5
+Person ID: 1, Bounding Box: (0, 296, 454, 1040), Distracted: True
+Person ID: 2, Bounding Box: (321, 253, 989, 1024), Distracted: True
+Person ID: 3, Bounding Box: (1109, 183, 1649, 682), Distracted: False
+Person ID: 4, Bounding Box: (842, 6, 1286, 676), Distracted: False
+Person ID: 5, Bounding Box: (218, 114, 579, 425), Distracted: False
+

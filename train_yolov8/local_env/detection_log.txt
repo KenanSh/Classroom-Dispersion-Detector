@@ -1,0 +1,8 @@
+Time: 2024-07-17 20:12:36
+Number of people: 1
+Person ID: 28, Bounding Box: (146, 230, 624, 480), Distracted: False
+
+Time: 2024-07-17 20:12:46
+Number of people: 1
+Person ID: 83, Bounding Box: (146, 232, 621, 480), Distracted: False
+
