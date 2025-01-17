@@ -3,8 +3,6 @@
 ## Summary
 The Classroom Dispersion Detector is a project designed to analyze classroom dynamics and seating arrangements using computer vision techniques. By leveraging a YOLOv8 pretrained model, this project aims to detect human faces and persons in the classroom scene. The key objective is to determine student engagement by identifying individuals who are distracted. If a person is detected without their face visible, they are classified as "Distracted," and vice versa. Such a tool can provide insights into classroom engagement, social distancing compliance, or spatial organization. This application detects distraction in images of classrooms, video footage of classrooms, and in real-time classroom scenarios.
 
----
-
 ## Dataset
 
 The dataset for this project was collected using a custom-built tool adapted from the [OIDv4_ToolKit](https://github.com/EscVM/OIDv4_ToolKit). The Open Image Dataset V7 was chosen for its comprehensive annotations and extensive variety, making it ideal for training object detection models like YOLO. Below are some details about the dataset:
@@ -39,8 +37,6 @@ The dataset was split into two parts:
 - **1500 images** for training.
 - **400 images** for validation.
 
----
-
 ## Data Preprocessing
 
 To prepare the dataset for fine-tuning the YOLOv8 model, the label text files were converted into the YOLO format. The YOLO 1.1 format requires normalized values and the assignment of numeric class labels. Below are the preprocessing steps followed:
@@ -62,8 +58,6 @@ The processed label files should be like this:
 0 0.508437 0.499582 0.981875 0.999163
 1 0.374687 0.543515 0.598125 0.676987
 ```
-
----
 
 ## Environment Setup
 
@@ -95,8 +89,6 @@ Given the relatively small size of our dataset due to limited resources, the ima
 
 2. **Configuration:**
    - Set the training parameters, including the number of epochs (100 epochs).
-
----
 
 ## Results
 
@@ -130,3 +122,4 @@ A final validation of the best model weights (`best.pt`) confirmed the following
 
 The results demonstrate that the YOLOv8n model effectively detects people in the validation images, achieving high precision and recall scores. These results are saved in the `runs\detect\train` directory for further analysis and potential deployment in real-time detection scenarios.
 
+---
